@@ -1,0 +1,200 @@
+{
+	"info": {
+		"_postman_id": "237698ae-404a-4d96-85a5-e90f73d19983",
+		"name": "Store-api-json-node",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25494916"
+	},
+	"item": [
+		{
+			"name": "Create Dummy Store Data",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "PiUserLevels=[%22124%22%2C%22106%22%2C%2221%22%2C%22127%22%2C%2219%22%2C%2220%22%2C%22105%22%2C%22128%22%2C%2223%22%2C%2245%22%2C%22129%22%2C%221%22%2C%222%22]; PiUser={%22token%22:%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3BocHN0YWNrLTY3Mzk1MS0zMDQ3Mzg2LmNsb3Vkd2F5c2FwcHMuY29tL3dwX2JhY2tlbmQiLCJpYXQiOjE2NzY5Nzk5NjksIm5iZiI6MTY3Njk3OTk2OSwiZXhwIjoxNjc4MTg5NTY5LCJkYXRhIjp7InVzZXIiOnsiaWQiOjYzfX19._p7JtEKh2s1oAg8HuhKTLiAGwJMy-nvaAbnAtkjOvFU%22%2C%22user_id%22:%2263%22%2C%22username%22:%22cool%22%2C%22email%22:%22piacademystaff@gmail.com%22%2C%22display_name%22:%22dinesh%22%2C%22registered_date%22:%222019-01-07%2019:48:45%22%2C%22role%22:%22customer%22%2C%22ceribryRefreshJWT%22:%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMDA0MzksInVzZXJuYW1lIjoiY29vbCIsImV4cCI6MTY3OTU3MTk3NywiZW1haWwiOiJzdHVkZW50QHBpYWNhZG1leS5jb20iLCJvcmlnX2lhdCI6MTY3Njk3OTk3NywiYXVkIjoiUHl0aG9uQXBpIiwiaXNzIjoiQ2VyZWJyeSIsImlzX3JlZnJlc2hfdG9rZW4iOnRydWV9.egL-zbJToB6ZL1wnkJxduo1QtqN4d6Q6-aMei6CrHp4%22}"
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "If-None-Match",
+						"value": "W/\"b-ytQFCCSywKj0L1c7i7Z95z3I19U\""
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "none"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"Google Chrome\";v=\"110\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001/create/stock/10/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"create",
+						"stock",
+						"10",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update single quality & size",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cookie",
+						"value": "PiUserLevels=[%22124%22%2C%22106%22%2C%2221%22%2C%22127%22%2C%2219%22%2C%2220%22%2C%22105%22%2C%22128%22%2C%2223%22%2C%2245%22%2C%22129%22%2C%221%22%2C%222%22]; PiUser={%22token%22:%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3BocHN0YWNrLTY3Mzk1MS0zMDQ3Mzg2LmNsb3Vkd2F5c2FwcHMuY29tL3dwX2JhY2tlbmQiLCJpYXQiOjE2NzY5Nzk5NjksIm5iZiI6MTY3Njk3OTk2OSwiZXhwIjoxNjc4MTg5NTY5LCJkYXRhIjp7InVzZXIiOnsiaWQiOjYzfX19._p7JtEKh2s1oAg8HuhKTLiAGwJMy-nvaAbnAtkjOvFU%22%2C%22user_id%22:%2263%22%2C%22username%22:%22cool%22%2C%22email%22:%22piacademystaff@gmail.com%22%2C%22display_name%22:%22dinesh%22%2C%22registered_date%22:%222019-01-07%2019:48:45%22%2C%22role%22:%22customer%22%2C%22ceribryRefreshJWT%22:%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyMDA0MzksInVzZXJuYW1lIjoiY29vbCIsImV4cCI6MTY3OTU3MTk3NywiZW1haWwiOiJzdHVkZW50QHBpYWNhZG1leS5jb20iLCJvcmlnX2lhdCI6MTY3Njk3OTk3NywiYXVkIjoiUHl0aG9uQXBpIiwiaXNzIjoiQ2VyZWJyeSIsImlzX3JlZnJlc2hfdG9rZW4iOnRydWV9.egL-zbJToB6ZL1wnkJxduo1QtqN4d6Q6-aMei6CrHp4%22}"
+					},
+					{
+						"key": "DNT",
+						"value": "1"
+					},
+					{
+						"key": "If-None-Match",
+						"value": "W/\"b-ytQFCCSywKj0L1c7i7Z95z3I19U\""
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": "document"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": "navigate"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": "none"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": "?1"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"110\", \"Not A(Brand\";v=\"24\", \"Google Chrome\";v=\"110\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "quality",
+							"value": "Good",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "12132312",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3001/update/stock/848876881/M/quality-and-price",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"update",
+						"stock",
+						"848876881",
+						"M",
+						"quality-and-price"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

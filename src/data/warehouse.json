@@ -1,0 +1,97 @@
+[
+  {
+    "apparelName": "Apparel 1",
+    "stock": [
+      {
+        "code": 204495945,
+        "price": 45320709,
+        "size": "S",
+        "quality": "Excellent"
+      },
+      { "code": 37520759, "price": 195800523, "size": "L", "quality": "Bad" }
+    ]
+  },
+  {
+    "apparelName": "Apparel 2",
+    "stock": [
+      { "code": 685631636, "price": 729067588, "size": "L", "quality": "Bad" },
+      { "code": 408758970, "price": 378232724, "size": "XL", "quality": "Ok" }
+    ]
+  },
+  {
+    "apparelName": "Apparel 3",
+    "stock": [
+      { "code": 145013637, "price": 141179251, "size": "XL", "quality": "Ok" },
+      { "code": 848876881, "price": 10, "size": "M", "quality": "Excellentttt" }
+    ]
+  },
+  {
+    "apparelName": "Apparel 4",
+    "stock": [
+      { "code": 718466239, "price": 72179193, "size": "L", "quality": "Ok" },
+      { "code": 943788553, "price": 718531628, "size": "S", "quality": "Bad" }
+    ]
+  },
+  {
+    "apparelName": "Apparel 5",
+    "stock": [
+      { "code": 722782809, "price": 313992247, "size": "L", "quality": "Good" },
+      {
+        "code": 7853047,
+        "price": 135767892,
+        "size": "L",
+        "quality": "Excellent"
+      }
+    ]
+  },
+  {
+    "apparelName": "Apparel 6",
+    "stock": [
+      { "code": 243207730, "price": 868893755, "size": "S", "quality": "Bad" },
+      {
+        "code": 811164007,
+        "price": 218591311,
+        "size": "S",
+        "quality": "Excellent"
+      }
+    ]
+  },
+  {
+    "apparelName": "Apparel 7",
+    "stock": [
+      { "code": 518495372, "price": 863199790, "size": "XL", "quality": "Bad" },
+      { "code": 102943402, "price": 783877942, "size": "S", "quality": "Bad" }
+    ]
+  },
+  {
+    "apparelName": "Apparel 8",
+    "stock": [
+      {
+        "code": 157869953,
+        "price": 701468075,
+        "size": "XL",
+        "quality": "Excellent"
+      },
+      { "code": 297730385, "price": 102704601, "size": "S", "quality": "Good" }
+    ]
+  },
+  {
+    "apparelName": "Apparel 9",
+    "stock": [
+      { "code": 376142231, "price": 103530555, "size": "S", "quality": "Good" },
+      { "code": 570098042, "price": 264379797, "size": "S", "quality": "Bad" }
+    ]
+  },
+  {
+    "apparelName": "Apparel 10",
+    "stock": [
+      { "code": 915258033, "price": 714173122, "size": "L", "quality": "Ok" },
+      {
+        "code": 447533452,
+        "price": 943781847,
+        "size": "S",
+        "quality": "Excellent"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+Test updating stock quality and price of one apparel code and size:
+a. Test that stock quality and price are correctly updated for one apparel code and size.
+b. Test that updating stock quality and price for a non-existent apparel code and size throws an exception.
+
+Test updating stock quality and price of several apparel codes and sizes simultaneously:
+a. Test that stock quality and price are correctly updated for several apparel codes and sizes.
+b. Test that updating stock quality and price for a non-existent apparel code and size throws an exception.
+
+Test checking if a customer order can be fulfilled:
+a. Test that a customer order can be fulfilled when there is enough stock of each apparel code and size.
+b. Test that a customer order cannot be fulfilled when there is not enough stock of at least one apparel code and size.
+
+Test getting the lowest cost at which a customer order can be fulfilled:
+a. Test that the lowest cost is correctly calculated for a customer order that can be fulfilled.
+b. Test that an exception is thrown when the customer order cannot be fulfilled.
+
+Note: These test cases assume that the code for managing the stock, prices, and orders has already been implemented, and we are testing the functionality of this code using unit tests.
