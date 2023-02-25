@@ -9,15 +9,15 @@ To setup this server locally:
 - Use postman collection in the root folder to test the APIs
 
 ## Technical Design Requirements
-● Store all the data in a local JSON file. 
+- Store all the data in a local JSON file. 
     => {./src/data} this folder consists of all the data in JSON files.
-● You should not lose data if the server restarts. 
+- You should not lose data if the server restarts. 
     => we can ensure this by making few changes like:
         1. By Centralized error handling and logging mechanism
         2. By running the server on PM2 with clustered mode on (Added a sample pm2 config file to run)
-● Use typescript.
+- Use typescript.
     => I have used typescript in the project by most of the places type is defined as ```any```, it is just because of the time limit. We can create a common interface files to store all the tyo\pes and export them easily.
-● Just develop the REST APIs needed for this use case.
+- Just develop the REST APIs needed for this use case.
     => Added the post man for the developed endpoints/APIs
 
 ## Assumptions and Explanations
