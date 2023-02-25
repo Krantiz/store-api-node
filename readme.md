@@ -1,5 +1,5 @@
 # Apparel Store
-This server supports some crud operations of Apparel Store
+This server supports some crud operations of the Apparel Store
 
 ## Steps to set up the server.
 To setup this server locally:
